@@ -1,5 +1,5 @@
 import importlib
-#import update
+import update
 
 import GUI
 import HeroSelect
