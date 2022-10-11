@@ -1,0 +1,11 @@
+wheel
+
+pywin32
+requests
+
+PyAutoGUI
+PySimpleGUI
+
+numpy
+Pillow
+opencv-python
