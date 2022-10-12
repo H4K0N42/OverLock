@@ -32,5 +32,5 @@ while True:
             shutil.rmtree(folder)
         shutil.copytree(f'{os.path.dirname(__file__)}', folder)
     	
-        pyshortcuts.make_shortcut(f"{folder}/{program}.exe", name=f"{program}", startmenu=True, desktop=False, icon=f"{folder}/Source/{program}.ico")
+        pyshortcuts.make_shortcut(f"{folder}/main.exe", name=f"{program}", startmenu=True, desktop=False, icon=f"{folder}/Source/{program}.ico")
         window.close()
